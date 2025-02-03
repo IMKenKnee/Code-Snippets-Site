@@ -41,13 +41,13 @@ This repository contains the **front-end**, **back-end (API)**, and **database s
 
 ## **Solution Architecture Diagram**  
 Below is a high-level overview of the system architecture: (DRAFT)
-![Architecture Diagram](images/Architecture.png)
+![Architecture Diagram](Images/Architecture.png)
 
 ## **Wireframes**
 Draft wireframe sketches to visualize the layout and user flow: (DRAFT)
-![Home Page Wireframe](images/WireframeHome.png)
-![Category Page Wireframe](images/WireframeCategory.png)
-![Snippet Detail Page Wireframe](images/WireframeDetails.png)
+![Home Page Wireframe](Images/WireframeHome.png)
+![Category Page Wireframe](Images/WireframeCategory.png)
+![Snippet Detail Page Wireframe](Images/WireframeDetails.png)
 
 ## **User Stories**
 Below are **five** user stories demonstrating how different users will interact with the system:
@@ -58,7 +58,7 @@ Below are **five** user stories demonstrating how different users will interact 
 - **As a** self-learner, **I want** to understand certain implementations of code and their complexities **so that I can** compare different solutions.
 
 ## **Use Case Diagram**
-![Use Case Diagram](images/UseCase.png)
+![Use Case Diagram](Images/UseCase.png)
 
 - **UC-01:** Browse Snippets by Category
 **Actor:** Site Visitor
