@@ -57,57 +57,57 @@ Below are **five** user stories demonstrating how different users will interact 
 ## **Use Case Diagram**
 ![Use Case Diagram](Images/UseCase.png)
 
-- **UC-01:** Browse Snippets by Category
-**Actor:** Site Visitor
-**Description:** The user clicks a category (e.g., “Arrays”) to view all associated code snippets.
-**Preconditions:** Categories exist in the database (or file structure).
-**Normal Flow:**
--User selects a category from the navigation bar (Coding concept).
--System queries the backend for snippets tagged with that category.
--System displays the retrieved snippet listings.
-**Postconditions:** The user can see an overview of all snippets in that category.
-**Exceptions:** If no snippets exist under the chosen category, a “No snippets found” message is displayed.
+- **UC-01:** Browse Snippets by Category*same paragraph*
+**Actor:** Site Visitor*same paragraph*
+**Description:** The user clicks a category (e.g., “Arrays”) to view all associated code snippets.*same paragraph*
+**Preconditions:** Categories exist in the database (or file structure).*same paragraph*
+**Normal Flow:***same paragraph*
+-User selects a category from the navigation bar (Coding concept).*same paragraph*
+-System queries the backend for snippets tagged with that category.*same paragraph*
+-System displays the retrieved snippet listings.*same paragraph*
+**Postconditions:** The user can see an overview of all snippets in that category.*same paragraph*
+**Exceptions:** If no snippets exist under the chosen category, a “No snippets found” message is displayed.*same paragraph*
 
-- **UC-02:** View Snippet Detail
-**Actor:** Visitor
-**Description:** The user clicks on a specific snippet to see the full code and explanation.
-**Preconditions:** The snippet ID or reference exists.
-**Normal Flow:**
--User clicks the snippet title or “View Details.”
--System retrieves snippet data (title, code, explanation, complexity) from -storage.
--System displays the snippet detail page with formatted code and notes.
-**Postconditions:** The user can read or copy the snippet code and see its explanation.
-**Exceptions:** If the snippet ID is invalid or missing, an error or “Snippet not found” page is shown.
+- **UC-02:** View Snippet Detail*same paragraph*
+**Actor:** Visitor*same paragraph*
+**Description:** The user clicks on a specific snippet to see the full code and explanation.*same paragraph*
+**Preconditions:** The snippet ID or reference exists.*same paragraph*
+**Normal Flow:***same paragraph*
+-User clicks the snippet title or “View Details.”*same paragraph*
+-System retrieves snippet data (title, code, explanation, complexity) from storage.*same paragraph*
+-System displays the snippet detail page with formatted code and notes.*same paragraph*
+**Postconditions:** The user can read or copy the snippet code and see its explanation.*same paragraph*
+**Exceptions:** If the snippet ID is invalid or missing, an error or “Snippet not found” page is shown.*same paragraph*
 
-- **UC-03:** Search Snippets
-**Actor:** Visitor
-**Description:** The user enters a keyword (e.g., “bubble sort”) into a search bar to find matching snippets.
-**Preconditions:** The system implements a basic search functionality (title, tags, or description).
-**Normal Flow:**
--User types a keyword and submits the search query.
--System checks the database or in-memory collection for matching snippets.
--System displays a list of relevant snippet titles and short descriptions.
-**Postconditions:** The user sees all snippets that match the search keyword.
-**Exceptions:** If there are no matches, the system shows a “No results found” message.
+- **UC-03:** Search Snippets*same paragraph*
+**Actor:** Visitor*same paragraph*
+**Description:** The user enters a keyword (e.g., “bubble sort”) into a search bar to find matching snippets.*same paragraph*
+**Preconditions:** The system implements a basic search functionality (title, tags, or description).*same paragraph*
+**Normal Flow:***same paragraph*
+-User types a keyword and submits the search query.*same paragraph*
+-System checks the database or in-memory collection for matching snippets.*same paragraph*
+-System displays a list of relevant snippet titles and short descriptions.*same paragraph*
+**Postconditions:** The user sees all snippets that match the search keyword.*same paragraph*
+**Exceptions:** If there are no matches, the system shows a “No results found” message.*same paragraph*
 
-- **UC-04:** Filter Snippets by Language
-**Actor:** Visitor
-**Description:** The user applies a language filter (e.g., “JavaScript,” “Python”) to see only snippets in that language.
-**Preconditions:** Snippets are tagged or categorized by language in the database.
-**Normal Flow:**
--User selects a language from a dropdown menu or filter section.
--System queries the snippet collection for the chosen language.
--The filtered list of snippets is displayed.
-**Postconditions:** The user sees only snippets written in the specified language.
-**Exceptions:** If no snippets exist in that language, show “No snippets found.”
+- **UC-04:** Filter Snippets by Language*same paragraph*
+**Actor:** Visitor*same paragraph*
+**Description:** The user applies a language filter (e.g., “JavaScript,” “Python”) to see only snippets in that language.*same paragraph*
+**Preconditions:** Snippets are tagged or categorized by language in the database.*same paragraph*
+**Normal Flow:***same paragraph*
+-User selects a language from a dropdown menu or filter section.*same paragraph*
+-System queries the snippet collection for the chosen language.*same paragraph*
+-The filtered list of snippets is displayed.*same paragraph*
+**Postconditions:** The user sees only snippets written in the specified language.*same paragraph*
+**Exceptions:** If no snippets exist in that language, show “No snippets found.”*same paragraph*
 
-- **UC-05:** View Time Complexity Info
-**Actor:** Visitor
-**Description:** The user views the time complexity or performance notes for a selected snippet.
-**Preconditions:** Each snippet includes a property/field for complexity (e.g., O(n), O(n log n)).
-**Normal Flow:**
--User opens the snippet detail page.
--The system displays a short explanation of the snippet’s runtime complexity and any relevant performance considerations.
--The user reads and gains insight into the snippet’s efficiency.
-**Postconditions:** The user understands the snippet’s time complexity.
-**Exceptions:** If no time complexity data is provided for a snippet, show a placeholder or “Not provided” text.
+- **UC-05:** View Time Complexity Info*same paragraph*
+**Actor:** Visitor*same paragraph*
+**Description:** The user views the time complexity or performance notes for a selected snippet.*same paragraph*
+**Preconditions:** Each snippet includes a property/field for complexity (e.g., O(n), O(n log n)).*same paragraph*
+**Normal Flow:***same paragraph*
+-User opens the snippet detail page.*same paragraph*
+-The system displays a short explanation of the snippet’s runtime complexity and any relevant performance considerations.*same paragraph*
+-The user reads and gains insight into the snippet’s efficiency.*same paragraph*
+**Postconditions:** The user understands the snippet’s time complexity.*same paragraph*
+**Exceptions:** If no time complexity data is provided for a snippet, show a placeholder or “Not provided” text.*same paragraph*
