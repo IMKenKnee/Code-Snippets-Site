@@ -12,7 +12,7 @@ A user-friendly website showcasing **concise code snippets** for learning data s
 3. [Solution Architecture Diagram](#solution-architecture-diagram)  
 4. [Wireframes](#wireframes)
 5. [User Stories](#user-stories)
-6. [Use Case Diagram](#use-dase-diagram) 
+6. [Use Case Diagram](#use-case-diagram) 
 
 ---
 
