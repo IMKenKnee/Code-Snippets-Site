@@ -9,13 +9,10 @@ A user-friendly website showcasing **concise code snippets** for learning data s
 ## **Table of Contents**  
 1. [Overview](#overview)  
 2. [Features](#features)  
-3. [Architecture Diagram](#architecture-diagram)  
-4. [Wireframes](#wireframes)  
-5. [Sample Code Snippet](#sample-code-snippet)  
-6. [Installation](#installation)  
-7. [Usage](#usage)  
-8. [Contributing](#contributing)  
-9. [License](#license)  
+3. [Solution Architecture Diagram](#solution-architecture-diagram)  
+4. [Wireframes](#wireframes)
+5. [User Stories](#user-stories)
+6. [Use Case Diagram](#use-dase-diagram) 
 
 ---
 
@@ -41,7 +38,7 @@ This repository contains the **front-end**, **back-end (API)**, and **database s
 
 ## **Solution Architecture Diagram**  
 Below is a high-level overview of the system architecture: (DRAFT)
-![Architecture Diagram](Images/Architecture.png)
+![Solution Architecture Diagram](Images/Architecture.png)
 
 ## **Wireframes**
 Draft wireframe sketches to visualize the layout and user flow: (DRAFT)
